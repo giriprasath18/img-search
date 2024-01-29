@@ -27,6 +27,11 @@ form{
     justify-content: center;
     margin-bottom: 60px;
 }
+
+form input:focus{
+    outline: 0;
+}
+
 #search-input{
     width: 60%;
     max-width: 400px;
@@ -111,10 +116,11 @@ footer{
     position: relative;
     bottom: 0px;
     left: 0;
-    
+    font-size: 12px;
 }
 footer a{
     text-decoration: none;
+    
 }
 
 @media screen and (max-width: 768px) {
