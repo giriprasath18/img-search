@@ -37,8 +37,8 @@ async function searchImages(){
         // append child
 
         searchResults.appendChild(imageWrapper);
-        imageLink.appendChild(image);
-        imageWrapper.appendChild(imageLink);
+        image.appendChild(imageLink);
+        imageWrapper.appendChild(image);
 
     });
 
