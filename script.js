@@ -28,6 +28,7 @@ async function searchImages(){
         const image = document.createElement("img");
         image.src = result.urls.small;
         image.alt = result.alt_description;
+
         const imageLink = document.createElement("a");
         imageLink.href = result.links.html;
         imageLink.target = "_blank";
@@ -52,7 +53,7 @@ async function searchImages(){
 //event listener
 
 formElement.addEventListener("submit", (event)=>{
-    event.preventDefault;
+    event.preventDefault();
     page = 1;
     searchImages();
 });
