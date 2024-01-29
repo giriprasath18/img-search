@@ -107,9 +107,15 @@ form{
     .search-result{
         width: 45%;
     }
+    .search-results{
+        padding: 20px;
+    }
 }
 @media screen and (max-width: 480px) {
     .search-result{
         width: 100%;
+    }
+    .search-results{
+        padding: 20px;
     }
 }
