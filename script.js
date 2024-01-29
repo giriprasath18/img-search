@@ -36,9 +36,9 @@ async function searchImages(){
 
         // append child
 
-        searchResults.appendChild(imageWrapper);
+        imageLink.appendChild(image);
         imageWrapper.appendChild(imageLink);
-        imageWrapper.appendChild(image);
+        searchResults.appendChild(imageWrapper);
 
     });
 
@@ -51,7 +51,7 @@ async function searchImages(){
 
 //event listener
 
-formElement.addEventListener("click", (event)=>{
+formElement.addEventListener("submit", (event)=>{
     event.preventDefault;
     page = 1;
     searchImages();
