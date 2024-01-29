@@ -5,6 +5,7 @@ const inputElement = document.getElementById("search-input");
 const searchResults = document.querySelector(".search-results");
 const showMore = document.getElementById("show-more");
 
+
 let inputData = "";
 let page = 1;
 
